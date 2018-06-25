@@ -80,7 +80,7 @@ do
 
     ###########################################################################################
 
-    if POST_UPDATE ; then
+    if $POST_UPDATE ; then
        	echo
        	echo "GitHook: POST UPDATE STARTED"
 		## WRITE YOUR DESIRED SCRIPTS TO DO OPERATIONS
